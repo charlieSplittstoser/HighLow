@@ -12,11 +12,13 @@ public class Logic {
 	 * currentNumber = current number displayed on screen
 	 * lastNumber = the previous number that we are comparing the current number to
 	 * points = the total amount of points a player currently has
+	 * highscore = highest number of points scored since opening the game
 	 */
 	Random r = new Random();
 	int currentNumber = r.nextInt(100) + 1;
 	int lastNumber;
 	int points = 0;
+	int highscore = 0;
 		
 	
 	/**
